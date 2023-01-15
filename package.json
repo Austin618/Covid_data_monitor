@@ -1,0 +1,33 @@
+{
+  "name": "csc301_a2",
+  "version": "1.0.0",
+  "description": "assignment-2-10-austin618-zzq20010617 created by GitHub Classroom",
+  "main": "sever.js",
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.5.4"
+  },
+  "scripts": {
+    "setup": "npm install",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "heroku-postbuild": "npm install",
+    "test": "mocha --timeout 30000 --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "json-2-csv": "^3.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
