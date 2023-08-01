@@ -1,4 +1,4 @@
-# assignment-2-10-austin618-zzq20010617
+# Covid_data_monitor
 
 ## Main features 
  * Upload CSV file to relational PostgreSQL database
